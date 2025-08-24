@@ -1,0 +1,213 @@
+
+
+    @media (max-width: 1199px) {
+
+        /* header */
+        .navbar-expand-lg .navbar-nav {
+            align-items: center;
+            margin-left: 55%;
+            margin-right: -3%;
+            margin-top: -9%;
+            background-color: whitesmoke;
+        }
+    
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding: 2;
+            font-size: .875rem;
+        }
+    
+        .main-btn {
+            font-size: .875rem;
+        }
+    
+        /* booking area */
+        .booking-area {
+            padding: 3rem .625rem;
+        }
+    
+        .booking-area .main-btn {
+            padding-left: .3125rem !important;
+            padding-right: .3125rem !important;
+        }
+    
+        /* service */
+        .service-item-wrap .tab-content img {
+            width: 100%;
+        }
+    
+        .service-menu-area ul li a {
+            margin-bottom: .8125rem;
+            overflow: hidden;
+        }
+    
+        .service-menu-area ul li:nth-child(1) {
+            margin-left: -4.4375rem;
+        }
+    
+        .service-menu-area ul li:nth-child(2) {
+            margin-left: -6.9375rem;
+        }
+    
+        .service-menu-area ul li:nth-child(3) {
+            margin-left: -9.375rem;
+        }
+    
+        .service-menu-area ul li:nth-child(4) {
+            margin-left: -12.8125rem;
+        }
+    
+        .service-menu-area ul li a h5 {
+            margin-bottom: .375rem;
+        }
+    }
+    
+    @media (max-width:991px) {
+    
+        /* custom css */
+        section {
+            padding: 1.875rem 0;
+        }
+    
+        /* 2 Navbar */
+        .header-scrolled {
+            height: auto;
+        }
+    
+        .header_wrapper .menu-navbar-nav {
+            text-align: center;
+            background-color: var(--bg-dark-blue);
+            padding-bottom: .9375rem;
+        }
+    
+        .header_wrapper .nav-item .nav-link {
+            margin-top: .9375rem;
+        }
+    
+        /* banner wrapper */
+        .banner_wrapper {
+            height: 25.625rem;
+        }
+    
+        .booking-area {
+            padding: 3.125rem 1.875rem;
+        }
+    
+    
+        /* About */
+        .about_wrapper {
+            padding-top: 22.375rem;
+        }
+    
+        /* services */
+        .service-menu-area {
+            padding:1.5rem 0.5rem;
+        }
+    
+        .service-menu-area ul li {
+            margin-left: unset !important;
+        }
+    
+        /* room */
+        .room-item .room-content {
+            padding: 2rem 1.875rem;
+        }
+        #pio1 {
+            height: 33vh;
+            width: 39%;
+            position: absolute;
+            margin-left: 45%;
+            margin-top: 0%;
+        }
+        #pio {
+            height: 35vh;
+            width: 47%;
+            position: relative;
+            margin-left: 8%;
+            margin-top: 17%;
+        }
+        #lo {
+            height: 60vh;
+        }
+        .room-item .room-item-wrap {
+            left: 0.875rem;
+            right: 0.875rem;
+            position: absolute;
+            top: 9%;
+            transform: translateY(-50%);
+            z-index: 1;
+            height: 3vh;
+        }
+    
+    }
+    
+    @media (max-width: 767px) {
+    
+        /* custom css */
+        h1 {
+            font-size: 1.875rem;
+            line-height: 2.5rem;
+        }
+    
+        h3 {
+            font-size: 1.75rem;
+            line-height: 2.1875rem;
+        }
+    
+        h5 {
+            font-size: 1.25rem;
+        }
+    
+        p {
+            font-size: .8125rem;
+            line-height: 1.5rem;
+        }
+    
+        /* blog */
+        .blog-content {
+            margin: 0;
+        }
+    
+        /* footer */
+        .footer_wrapper>div {
+            padding: 0 1.875rem;
+        }
+        .room-item .room-item-wrap {
+            left: 0.875rem;
+            right: 0.875rem;
+            position: absolute;
+            top: 19%;
+            transform: translateY(-50%);
+            z-index: 1;
+            height: 3vh;
+        }
+        .navbar-expand-lg .navbar-nav {
+            align-items: center;
+            margin-left: 0%;
+            margin-right: -3%;
+            margin-top: -9%;
+            background-color: whitesmoke;
+        }
+        .img-fluid {
+            max-width: 100%;
+            height: 20vh;
+        }
+        #zoo {
+            width: 67%;
+            height: 52vh;
+            position: relative;
+            margin-left: 9%;
+            box-shadow: -9px 10px 14px 8px var(--secondary-color);
+        }
+    }
+    @media (max-width: 767px){
+
+        h1 {
+            font-size: 0.875rem;
+            margin-left: 16%;
+            line-height: 2.5rem;
+        }
+    }
+
+    
+            
+          
